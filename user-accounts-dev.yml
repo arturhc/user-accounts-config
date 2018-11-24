@@ -2,6 +2,12 @@
 
 some:
   property: some value 2
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 debug: true
 
