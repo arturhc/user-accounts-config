@@ -21,7 +21,7 @@ spring:
       password: password
   datasource:
     username: root
-    password: admin
+    password: 123
     url: jdbc:mysql://localhost:3306/tecgurus?serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
