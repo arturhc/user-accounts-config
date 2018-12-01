@@ -9,13 +9,15 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
+server:
+  servlet:
+    context-path: /qbits-message-broker
+
 spring:
   security:
     user:
       name: admin
       password: password
-  servlet:
-    context-path: /qbits-message-broker
   datasource:
     username: root
     password: jaqart_56923
