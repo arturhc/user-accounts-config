@@ -76,4 +76,4 @@ app:
 
 user-accounts:
   account:
-    register.context: localhost:8091/users
+    register.context: localhost:8082/users
